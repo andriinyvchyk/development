@@ -1,0 +1,54 @@
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-ctn d-flex">
+            <div class="topbar-text">Get 30% Off On Selected Items</div>
+            <a href="#">Wishlist</a>
+        </div>
+    </div>
+</div>
+<div class="header-top">
+    <div class="container">
+        <div class="header-top-ctn d-flex justify-content-between">
+            <div class="logo">
+                <a [routerLink]="home"><img
+                        src="https://madebyhand.in/wordpress/treaco/wp-content/themes/Treaco/images/webi/logo.png?x65483"
+                        alt="logo"></a>
+            </div>
+            <div class="search-input">
+                <form class="form-inline">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"> <span>All categories <span><i
+                                            class="fas fa-angle-down"></i></span></span></div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search Products...">
+                    </div>
+                    <button type="submit" class="btn mb-2 submit">SEARCH</button>
+                </form>
+            </div>
+            <div class="info-buttons d-flex">
+                <div class="info-account">
+                    <i class="far fa-user-circle"></i>
+                    <span class="d-block">Account</span>
+                </div>
+                <div class="info-myCard">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span class="badge badge-primary badge-pill">1</span>
+                    <span class="d-block">My Card</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header-bottom">
+    <div class="container">
+        <div class="header-bottom-ctn">
+            <ul class="navigation">
+                <li><a routerLink="home" routerLinkActive="active">Home</a></li>
+                <li><a [routerLink]="shop" routerLinkActive="active">Shop</a></li>
+                <li><a [routerLink]="blog" routerLinkActive="active">Blog</a></li>
+                <li><a [routerLink]="contactus" routerLinkActive="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

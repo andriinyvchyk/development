@@ -1,0 +1,23 @@
+.container{
+    max-width: 1325px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .listCategory{
+        width: 20%;
+        .list-group{
+            li{
+                cursor: pointer;
+                &:hover{
+                    color: #f3283c;
+                }
+            }
+            .disabled{
+                color: black;
+                background-color: #ffcc00;
+            }
+        }
+    }
+    .slider{
+        width: 79%;
+    }
+}
